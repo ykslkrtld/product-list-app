@@ -10,20 +10,15 @@ h1{
     font-size: 2.5rem;
     font-weight: 700;
 }
-
 ul{
     @include flex;
     flex-wrap: wrap;
-    
-
     button{
         padding: 1rem;
         border: none;
         border-radius: 10px;
-        transition: 0.8s all ease-in-out;
+        transition: 0.5s all ease-in-out;
         background-color: rgb(217, 206, 206);
-
-
         &:hover{
             cursor: pointer;
             background-color: darkorange;

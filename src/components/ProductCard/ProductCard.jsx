@@ -2,12 +2,11 @@ import { products } from "../../helper/data";
 import "./ProductCard.scss"
 
 
-function ProductCard({kategori}){
-    const Filtreproduct=(kategori)==="all" ? products : products.filter((product)=>product.category===kategori)
+function ProductCard(){
     return(
         <div className="tasiyici">
             {
-                products.map(({title, id, price, category, image}) => (
+                products.map(({title, id, price, image}) => (
                     <div className="anaDiv" key={id}>
                         <div className="imgP">
                             <img src={image} alt={title} />
