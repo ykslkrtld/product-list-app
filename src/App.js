@@ -1,6 +1,6 @@
 import './App.scss';
 import Header from './components/Header/Header';
-import ProductCard from './components/ProductCard/ProductCard';
+import ProductCard from './components/Products/ProductCard';
 
 
 function App() {
